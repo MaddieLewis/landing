@@ -1,0 +1,63 @@
+.hero {
+    /* Sizing */
+/*width: 100vw;*/
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-image: url(https://thenypost.files.wordpress.com/2014/04/cage.jpg);
+
+    /*Below could also be a good image*/
+    /*https://images.mentalfloss.com/sites/default/files/styles/width-constrained-728/public/84010-nicolas-cage.jpg*/
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.hero h2 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.footer {
+    /* Sizing */
+/*width: 100vw;*/
+    height: 100%;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-color: black;
+
+    /*Below could also be a good image*/
+    /*https://images.mentalfloss.com/sites/default/files/styles/width-constrained-728/public/84010-nicolas-cage.jpg*/
+    /*background-size: cover !important;*/
+    background-position: center;
+    background-repeat: repeat-x;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    z-index: 3;
+}
